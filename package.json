@@ -9,18 +9,32 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.11.3",
+    "@neondatabase/serverless": "^1.1.0",
+    "date-fns": "^4.4.0",
+    "dotenv": "^18.0.4",
+    "drizzle-orm": "^0.45.3",
+    "googleapis": "^182.0.0",
+    "lucide-react": "^1.48.0",
     "next": "16.3.6",
+    "next-auth": "^4.24.15",
+    "pgvector": "^0.3.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-day-picker": "^10.0.1",
+    "react-dom": "19.2.8",
+    "recharts": "^3.10.1",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.11",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   },
   "packageManager": "pnpm@12.6.0"
